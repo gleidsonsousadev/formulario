@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #010626, #CF5FCE);
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    padding: 80px;
+    border-radius: 15px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.273);
+
+}
+
+h1 {
+    border-bottom: 2px solid #021E73;
+    color: #021E73;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 3em;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #021E73
+}
+
+input {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 0;
+    border: 1px solid rgb(213, 213, 213);
+    outline: 0;
+    font-size: 1em;
+}
+
+input:focus {
+    border: 1px solid #021E73;
+}
+
+.dados {
+    width: 100%;
+}
+
+select {
+    padding: 10px;
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 8px;
+    outline: 0;
+    font-size: 1em;
+}
+
+select:focus {
+    border: 1px solid #021E73;
+}
+
+.enviar {
+    background: #021E73;
+    font-size: 1em;
+    color: white;
+    font-weight: bolder;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.enviar:hover {
+    background-color: #0433BF;
+}
+
+textarea {
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 8px;
+    width: 100%;
+    outline: 0;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+textarea:focus {
+    border: 1px solid #021E73;
+}
+
+label:hover {
+    color: #0433BF;
+    font-weight: bold;
+}
